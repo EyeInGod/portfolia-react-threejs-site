@@ -7,6 +7,12 @@ import {
   typescript,
   html,
   css,
+  nextjs,
+  vuejs,
+  sveltejs,
+  angularjs,
+  python,
+  ruby,
   reactjs,
   redux,
   tailwind,
@@ -21,8 +27,14 @@ import {
   shopify,
   carrent,
   jobit,
+  onlineshop,
   tripguide,
+  udemy,
   threejs,
+  laravel,
+  ecommerce,
+  music,
+  nft,
 } from "../assets";
 
 export const navLinks = [
@@ -42,32 +54,32 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Hybrid App Developer",
+    icon: mobile,
+  },
+  {
+    title: "Fulltime Service Support",
     icon: creator,
   },
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
   {
     name: "JavaScript",
     icon: javascript,
@@ -77,13 +89,41 @@ const technologies = [
     icon: typescript,
   },
   {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Ruby",
+    icon: ruby,
+  },
+  {
+    name: "Laravel",
+    icon: laravel,
+  },
+  // {
+  //   name: "Next JS",
+  //   icon: nextjs,
+  // },
+  // {
+  //   name: "Vue JS",
+  //   icon: vuejs,
+  // },
+  // {
+  //   name: "Angular JS",
+  //   icon: angularjs,
+  // },
+  // {
+  //   name: "Svelte JS",
+  //   icon: sveltejs,
+  // },
+  {
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -116,55 +156,51 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Senior Web Developer",
+    company_name: "Self-employed/Freelance",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "July 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed 10+ applications following Agile product development methodologies.",
+      "Designed, built and automated data flows to save 40+ hours of tedious work per week.",
+      "Diagnosed and fixed report functionally issues by troubleshooting.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Backend Developer",
+    company_name: "Digital Resource Australia Pty Ltd",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "October 2020 - June 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Customize Duda platform that could scale up to 300k daily visitors.",
+      "Wrote 100+ unit tests to ensure 100% code with SDLC was without bugs.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Self-employed/Freelance",
+    company_name: "Frontend && Backend Developer",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "July 2017 - June 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created an application interface that integrated 50+ third party APIs and improved sales results by 70% with 3 weeks  on the Job.",
+      "Reduced development time by 30% through code  reuse in jQuery libraries for various projects with over 2.5k combined page visits.",
+      "Improved the home page views from 5k to 80k weekly through SEO optimization, A/B testing.",
+      "By developing a school administration system, student grades have increased by 20% compared to before.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Junior Full-Stack Engineer",
+    company_name: "EWANDS",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "October 2016 - 2017",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Learned orginazation's overall strategies, business operates and what drives in success.",
+      "communicated with line of business and managed overoll status and health of 10+ applications.",
+      "collaborated external programmers to coordinate delivery of 3 new software applications.",
     ],
   },
 ];
@@ -200,11 +236,15 @@ const projects = [
   {
     name: "Car Rent",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Dollar Car Rental allows you to reserve a rental car online , saving you time and money. They offer great car rental deals and have convenient pickup and drop-off locations.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "orange-text-gradient",
       },
       {
         name: "mongodb",
@@ -214,18 +254,26 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "restapi",
+        color: "black-text-gradient",
+      },
     ],
     image: carrent,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Online Shop",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "When shopping for online printing services, you can find various options that offer different types of printed materials, such as business cards, flyers, brochures, posters, banners, and more. These services often provide customization options, allowing you to personalize your printed materials with your own designs, logos, and text.",
     tags: [
       {
-        name: "react",
+        name: "Angular",
         color: "blue-text-gradient",
+      },
+      {
+        name: "Laravel",
+        color: "orange-text-gradient",
       },
       {
         name: "restapi",
@@ -236,11 +284,11 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: onlineshop,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Ecommerce Site",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
@@ -249,15 +297,106 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "restapi",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: ecommerce,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Online Music Site",
+    description:
+      "Spotify is a digital music service that provides access to millions of songs . It offers a vast library of music across various genres and allows users to create playlists, discover new music, and follow their favorite artists.",
+    tags: [
+      {
+        name: "Svelte",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "CSS3",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "tailwindCss",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: music,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Udemy",
+    description:
+      "Udemy is an online learning and teaching marketplace that offers a wide range of courses on various topics . It has over 213,000 courses and 62 million students . Udemy provides a platform for instructors to create and sell their courses, allowing learners to access high-quality educational content from experts around the world.",
+    tags: [
+      {
+        name: "Vue",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PHP",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "CSS3",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "BootStrap",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: udemy,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "NFT Markting Site",
+    description:
+      "Spotify is a digital music service that provides access to millions of songs . It offers a vast library of music across various genres and allows users to create playlists, discover new music, and follow their favorite artists.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "CSS3",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "tailwindCss",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: nft,
     source_code_link: "https://github.com/",
   },
 ];

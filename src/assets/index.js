@@ -15,6 +15,13 @@ import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
+import python from "./tech/python.png";
+import ruby from "./tech/ruby.png";
+import laravel from "./tech/laravel.png";
+import nextjs from "./tech/nextjs.svg";
+import vuejs from "./tech/vuejs.png";
+import angularjs from "./tech/angularjs.png";
+import sveltejs from "./tech/sveltejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
@@ -29,6 +36,11 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import udemy from "./udemy.png";
+import onlineshop from "./online-printing-shop.png";
+import ecommerce from "./ecommerce.png";
+import music from "./music-site.png";
+import nft from "./nft.png";
 
 export {
   logo,
@@ -36,6 +48,9 @@ export {
   creator,
   mobile,
   web,
+  python,
+  ruby,
+  laravel,
   github,
   menu,
   close,
@@ -47,6 +62,10 @@ export {
   javascript,
   mongodb,
   nodejs,
+  nextjs,
+  vuejs,
+  angularjs,
+  sveltejs,
   reactjs,
   redux,
   tailwind,
@@ -59,4 +78,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  udemy,
+  onlineshop,
+  ecommerce,
+  music,
+  nft,
 };

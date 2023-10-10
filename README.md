@@ -67,13 +67,6 @@
 
 </details>  
 
-<!-- About the Project -->
-## :star2: About the Project
-
-<div align="center">
-  <img src="readme_assets/3d-portfolio.png" height="auto" width="90%"/>
-</div>
-
 <br />
 
 This repository houses an well-designed and functional Developer Portfolio Website consisting Navbar, Hero, Overview, Work Experience, Technologies, Projects, Testimonials and Contact sections built with React & Three.js using TailwindCSS ⏭

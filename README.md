@@ -71,6 +71,8 @@
 
 This repository houses an well-designed and functional Developer Portfolio Website consisting Navbar, Hero, Overview, Work Experience, Technologies, Projects, Testimonials and Contact sections built with React & Three.js using TailwindCSS ⏭
 
+Live Site URL: https://my-react-portfolia-site.onrender.com/
+
 <!-- Folder Structure -->
 ### :bangbang: Folder Structure
 
@@ -196,15 +198,6 @@ Don't forget to give the project a star! Thanks again!
 ## :warning: License
 
 Distributed under the MIT License. See [LICENSE.txt](https://github.com/ladunjexa/Threejs_3D_Portfolio/blob/main/LICENSE) for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- Contact -->
-## :handshake: Contact
-
-Liron Abutbul - [@lironabutbul6](https://twitter.com/lironabutbul6) - [@ladunjexa](https://t.me/ladunjexa)
-
-Project Link: [https://github.com/ladunjexa/Threejs_3D_Portfolio](https://github.com/ladunjexa/Threejs_3D_Portfolio)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

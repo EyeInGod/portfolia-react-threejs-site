@@ -100,18 +100,18 @@ const technologies = [
     name: "Laravel",
     icon: laravel,
   },
-  // {
-  //   name: "Next JS",
-  //   icon: nextjs,
-  // },
+  {
+    name: "Next JS",
+    icon: nextjs,
+  },
   // {
   //   name: "Vue JS",
   //   icon: vuejs,
   // },
-  // {
-  //   name: "Angular JS",
-  //   icon: angularjs,
-  // },
+  {
+    name: "Angular JS",
+    icon: angularjs,
+  },
   // {
   //   name: "Svelte JS",
   //   icon: sveltejs,
@@ -144,14 +144,14 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [

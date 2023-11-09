@@ -373,7 +373,7 @@ const projects = [
   {
     name: "NFT Markting Site",
     description:
-      "Spotify is a digital music service that provides access to millions of songs . It offers a vast library of music across various genres and allows users to create playlists, discover new music, and follow their favorite artists.",
+      "NFT marketplace on Pulse chain. I handled some front-endpart, web3 integration part, smart contract development and backend development.",
     tags: [
       {
         name: "React",
